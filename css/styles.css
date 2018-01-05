@@ -1,0 +1,166 @@
+.header{
+/*background:#85C1E9  ;
+
+color:#FFF;
+padding:2px;
+text-align: center;
+font-size:25px;
+font-weight:700;
+border:2px solid #000;
+box-shadow:3px 3px 3px #ddd;*/
+}
+.image{
+float:left;
+width:30%;
+height:auto;
+}
+.fcontainer{
+  display:flex;
+  flex-direction: column;
+  /*background:#884EA0 ;*/
+  padding:3%;
+  margin-top: 5%;
+  box-shadow:3px 3px 3px #ddd;
+}
+.fcontainer>div{
+  background:#884EA0;
+  color:#fff;
+  margin:2%;
+  padding:2%;
+  text-align: center;
+  font-weight:700;
+  box-shadow:3px 3px 3px #000;
+}
+
+.fcontainer>div:hover{
+background:orange;
+  color:#fff;
+  margin:2%;
+  padding:2%;
+  text-align: center;
+  font-weight:700;
+  box-shadow:3px 3px 3px #000;
+}
+
+.col-1{width:100%;}
+.col-2{width:25%;}
+.col-3{width:45%;}
+.col-4{width:70%;}
+.col-5{width:20%;}
+
+[class*="col-"]{
+  float:left;
+}
+.fcontainer-header{
+  display:flex;
+  flex-direction:row;
+  background:#884EA0;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow:3px 3px 3px #000;
+   }
+  .fcontainer-header>div{
+    font-size: 20px;
+    margin-left: 1%;
+    padding: 1%;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight:700;
+    text-transform: capitalize;
+  }
+
+  .fcontainer-header>div:hover{
+  background:orange;
+  }
+  .fcontainer-body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background:#fff ;
+    padding:2%;
+    margin-top: 2.5%;
+    box-shadow:3px 3px 3px #ddd;
+}
+.fcontainer-body>div{
+  background: #fff;
+  color:#000;
+  margin:2%;
+  padding:2%;
+  text-align: center;
+  font-weight:700;
+}
+
+form{
+  /*background:#884EA0 ;*/
+  padding:2%;
+  margin-top:5%;
+}
+.frhymes{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.flogin{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width:480px) {
+    [class*="col-"] {
+        width: 100%;
+
+    }
+    h2{
+      font-size: 40px;
+    }
+    p{
+      font-size: 50px;
+    }
+    .image1{
+    float:left;
+    width:100%;
+    height:auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+
+    }
+    
+     p{
+      font-size: 20px;
+    }
+    h2{
+      font-size: 30px;
+    }
+    .image1{
+    float:left;
+    width:100%;
+    height:auto;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    [class*="col-"] {
+        width: 100%;
+
+    }
+  }
+
+
+
+a{
+  text-decoration:none;
+  color:#fff;
+}
+.footer{
+  background:#884EA0;
+  color: #fff;
+  text-align: center;
+  padding: 0.3%;
+  font-size: 20px;
+  margin-top:0.1%;
+}
